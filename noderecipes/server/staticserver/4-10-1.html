@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>Static HTML</title>
+</head>
+<body>
+	<h2>Node.js Recipes</h2>
+	<p> Tasty </p>
+	<button id='getJSON'>Get JSON file</button>
+	<script type='text/javascript'>
+		// bind to click
+		var btn = document.getElementById('getJSON');
+		btn.addEventListener('click', getJSONContent, false);
+		// Send a request to the server for the JSON file
+		function getJSONContent() {
+			var xhr = new XMLHttpRequest();
+			xhr.onload = jsonRetrieved;
+			xhr.open('GET', '/4-10-1.json', true);
+			xhr.send();
+		}
+		// Log to the console	
+		function jsonRetrieved() {
+			console.log(this.responseText);
+		} 
+	</script>
+</body>
+</html>

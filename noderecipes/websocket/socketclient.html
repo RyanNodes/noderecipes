@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+	<h3>WebSockets!</h3>
+<script>
+window.onload = function() {
+	var ws = new WebSocket('ws://localhost:8080', 'echo-protocol');
+	ws.onopen = function() {
+		console.log('opened');
+	};
+
+	ws.onmessage = function(event) {
+		console.log(event);
+		ws.send(JSON.stringify({ status: 'ok'}));
+
+		console.log(ws.binaryType);
+		console.log(ws.bufferedAmount);
+		console.log(ws.protocol);
+		console.log(ws.url);
+		console.log(ws.readyState);
+	};
+
+	ws.onerror = function() {
+		console.log('oh no! an error has occured');
+	}
+
+	ws.onclose = function() {
+		console.log('connection closed');
+	}
+};
+</script>
+</body>
+</html>

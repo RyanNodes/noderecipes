@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+	<h3>WebSockets!</h3>
+
+<script>
+window.onload = function() {
+	var ws = new WebSocket('ws://localhost:8080', 'echo-protocol');
+	ws.onopen = function() {
+		console.log('opened');
+	};
+	ws.onmessage = function(event) {
+		console.log(event);
+		ws.send(JSON.stringify({ status: 'ok', path: 'route_a'}));
+		ws.send(JSON.stringify({ status: 'ok', path: 'route_b', action: 'update'}));
+	};
+
+};
+</script>
+</body>
+</html>

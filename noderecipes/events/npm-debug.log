@@ -1,0 +1,351 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'jshint' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'jshint', null ]
+5 verbose cache add name=undefined spec="jshint" args=["jshint",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jshint',
+6 verbose parsed url   path: 'jshint',
+6 verbose parsed url   href: 'jshint' }
+7 silly lockFile da5c03cb-jshint jshint
+8 verbose lock jshint /home/ryan/.npm/da5c03cb-jshint.lock
+9 silly lockFile da5c03cb-jshint jshint
+10 silly lockFile da5c03cb-jshint jshint
+11 verbose addNamed [ 'jshint', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a02a2468-jshint jshint@
+14 verbose lock jshint@ /home/ryan/.npm/a02a2468-jshint.lock
+15 silly addNameRange { name: 'jshint', range: '*', hasData: false }
+16 verbose url raw jshint
+17 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+18 verbose url resolved https://registry.npmjs.org/jshint
+19 info trying registry request attempt 1 at 17:03:13
+20 http GET https://registry.npmjs.org/jshint
+21 http 200 https://registry.npmjs.org/jshint
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"CFAXXG2PHO0D0KVVRYQCVSDQU"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '102893',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Mon, 28 Sep 2015 21:03:15 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '46',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1443474195.192456,VS0,VE0',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'jshint', range: '*', hasData: true }
+24 silly addNameRange versions [ 'jshint',
+24 silly addNameRange   [ '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.2.3',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.1.5',
+24 silly addNameRange     '2.1.6',
+24 silly addNameRange     '2.1.7',
+24 silly addNameRange     '2.1.8',
+24 silly addNameRange     '2.1.9',
+24 silly addNameRange     '2.1.10',
+24 silly addNameRange     '2.1.11',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.4.1',
+24 silly addNameRange     '2.4.2',
+24 silly addNameRange     '2.4.3',
+24 silly addNameRange     '2.4.4',
+24 silly addNameRange     '2.5.0',
+24 silly addNameRange     '2.5.1',
+24 silly addNameRange     '2.5.2',
+24 silly addNameRange     '2.5.3',
+24 silly addNameRange     '2.5.4',
+24 silly addNameRange     '2.5.5',
+24 silly addNameRange     '2.5.6',
+24 silly addNameRange     '2.5.7',
+24 silly addNameRange     '2.5.8',
+24 silly addNameRange     '2.5.9',
+24 silly addNameRange     '2.5.10',
+24 silly addNameRange     '2.5.11',
+24 silly addNameRange     '2.6.0',
+24 silly addNameRange     '2.6.1',
+24 silly addNameRange     '2.6.2',
+24 silly addNameRange     '2.6.3',
+24 silly addNameRange     '2.7.0',
+24 silly addNameRange     '2.8.0' ] ]
+25 verbose addNamed [ 'jshint', '2.8.0' ]
+26 verbose addNamed [ '2.8.0', '2.8.0' ]
+27 silly lockFile 1203a897-jshint-2-8-0 jshint@2.8.0
+28 verbose lock jshint@2.8.0 /home/ryan/.npm/1203a897-jshint-2-8-0.lock
+29 silly lockFile db7ab9be-pmjs-org-jshint-jshint-2-8-0-tgz https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz
+30 verbose lock https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz /home/ryan/.npm/db7ab9be-pmjs-org-jshint-jshint-2-8-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz',
+31 verbose addRemoteTarball   '1d09a3bd913c4cadfa81bf18d582bd85bffe0d44' ]
+32 info retry fetch attempt 1 at 17:03:14
+33 verbose fetch to= /home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz
+34 http GET https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz
+35 http 200 https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz
+36 verbose tar unpack /home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz
+37 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+38 verbose lock tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package /home/ryan/.npm/e50bae43-4222-0-16799557558260858-package.lock
+39 silly lockFile bc3f3c31-4222-0-16799557558260858-tmp-tgz tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz
+40 verbose lock tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz /home/ryan/.npm/bc3f3c31-4222-0-16799557558260858-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+48 silly gunzTarPerm extractEntry bin/apply
+49 silly gunzTarPerm modified mode [ 'bin/apply', 509, 493 ]
+50 silly gunzTarPerm extractEntry bin/build
+51 silly gunzTarPerm modified mode [ 'bin/build', 509, 493 ]
+52 silly gunzTarPerm extractEntry bin/changelog
+53 silly gunzTarPerm modified mode [ 'bin/changelog', 509, 493 ]
+54 silly gunzTarPerm extractEntry bin/jshint
+55 silly gunzTarPerm modified mode [ 'bin/jshint', 509, 493 ]
+56 silly gunzTarPerm extractEntry bin/land
+57 silly gunzTarPerm modified mode [ 'bin/land', 509, 493 ]
+58 silly gunzTarPerm extractEntry data/ascii-identifier-data.js
+59 silly gunzTarPerm modified mode [ 'data/ascii-identifier-data.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry data/non-ascii-identifier-part-only.js
+61 silly gunzTarPerm modified mode [ 'data/non-ascii-identifier-part-only.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry data/non-ascii-identifier-start.js
+63 silly gunzTarPerm modified mode [ 'data/non-ascii-identifier-start.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry dist/jshint-rhino.js
+65 silly gunzTarPerm modified mode [ 'dist/jshint-rhino.js', 509, 493 ]
+66 silly gunzTarPerm extractEntry dist/jshint.js
+67 silly gunzTarPerm modified mode [ 'dist/jshint.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry src/cli.js
+69 silly gunzTarPerm modified mode [ 'src/cli.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry src/lex.js
+71 silly gunzTarPerm modified mode [ 'src/lex.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry src/messages.js
+73 silly gunzTarPerm modified mode [ 'src/messages.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry src/name-stack.js
+75 silly gunzTarPerm modified mode [ 'src/name-stack.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry src/options.js
+77 silly gunzTarPerm modified mode [ 'src/options.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry src/jshint.js
+79 silly gunzTarPerm modified mode [ 'src/jshint.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry src/reg.js
+81 silly gunzTarPerm modified mode [ 'src/reg.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry src/style.js
+83 silly gunzTarPerm modified mode [ 'src/style.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry src/state.js
+85 silly gunzTarPerm modified mode [ 'src/state.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry src/vars.js
+87 silly gunzTarPerm modified mode [ 'src/vars.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+89 silly gunzTarPerm modified mode [ 'src/reporters/checkstyle.js', 436, 420 ]
+90 silly gunzTarPerm extractEntry src/reporters/default.js
+91 silly gunzTarPerm modified mode [ 'src/reporters/default.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+93 silly gunzTarPerm modified mode [ 'src/reporters/jslint_xml.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry src/reporters/non_error.js
+95 silly gunzTarPerm modified mode [ 'src/reporters/non_error.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry src/reporters/unix.js
+97 silly gunzTarPerm modified mode [ 'src/reporters/unix.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry src/platforms/rhino.js
+99 silly gunzTarPerm modified mode [ 'src/platforms/rhino.js', 436, 420 ]
+100 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+101 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+102 silly lockFile bc3f3c31-4222-0-16799557558260858-tmp-tgz tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz
+103 silly lockFile bc3f3c31-4222-0-16799557558260858-tmp-tgz tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/tmp.tgz
+104 verbose tar pack [ '/home/ryan/.npm/jshint/2.8.0/package.tgz',
+104 verbose tar pack   '/home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package' ]
+105 verbose tarball /home/ryan/.npm/jshint/2.8.0/package.tgz
+106 verbose folder /home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+107 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+108 verbose lock tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package /home/ryan/.npm/e50bae43-4222-0-16799557558260858-package.lock
+109 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+110 verbose lock tar:///home/ryan/.npm/jshint/2.8.0/package.tgz /home/ryan/.npm/a38e6493-yan-npm-jshint-2-8-0-package-tgz.lock
+111 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+112 silly lockFile e50bae43-4222-0-16799557558260858-package tar:///home/ryan/tmp/npm-13646-VMw4GhWS/1443474194222-0.16799557558260858/package
+113 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+114 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+115 silly lockFile d062e288-me-ryan-npm-jshint-2-8-0-package /home/ryan/.npm/jshint/2.8.0/package
+116 verbose lock /home/ryan/.npm/jshint/2.8.0/package /home/ryan/.npm/d062e288-me-ryan-npm-jshint-2-8-0-package.lock
+117 silly lockFile d062e288-me-ryan-npm-jshint-2-8-0-package /home/ryan/.npm/jshint/2.8.0/package
+118 silly lockFile d062e288-me-ryan-npm-jshint-2-8-0-package /home/ryan/.npm/jshint/2.8.0/package
+119 verbose tar unpack /home/ryan/.npm/jshint/2.8.0/package.tgz
+120 silly lockFile 582a6c33-me-ryan-npm-jshint-2-8-0-package tar:///home/ryan/.npm/jshint/2.8.0/package
+121 verbose lock tar:///home/ryan/.npm/jshint/2.8.0/package /home/ryan/.npm/582a6c33-me-ryan-npm-jshint-2-8-0-package.lock
+122 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+123 verbose lock tar:///home/ryan/.npm/jshint/2.8.0/package.tgz /home/ryan/.npm/a38e6493-yan-npm-jshint-2-8-0-package-tgz.lock
+124 silly gunzTarPerm modes [ '755', '644' ]
+125 silly gunzTarPerm extractEntry package.json
+126 silly gunzTarPerm extractEntry README.md
+127 silly gunzTarPerm extractEntry bin/apply
+128 silly gunzTarPerm extractEntry bin/build
+129 silly gunzTarPerm extractEntry bin/changelog
+130 silly gunzTarPerm extractEntry bin/jshint
+131 silly gunzTarPerm extractEntry bin/land
+132 silly gunzTarPerm extractEntry data/ascii-identifier-data.js
+133 silly gunzTarPerm extractEntry data/non-ascii-identifier-part-only.js
+134 silly gunzTarPerm extractEntry data/non-ascii-identifier-start.js
+135 silly gunzTarPerm extractEntry dist/jshint-rhino.js
+136 silly gunzTarPerm extractEntry dist/jshint.js
+137 silly gunzTarPerm extractEntry src/cli.js
+138 silly gunzTarPerm extractEntry src/lex.js
+139 silly gunzTarPerm extractEntry src/messages.js
+140 silly gunzTarPerm extractEntry src/name-stack.js
+141 silly gunzTarPerm extractEntry src/options.js
+142 silly gunzTarPerm extractEntry src/jshint.js
+143 silly gunzTarPerm extractEntry src/reg.js
+144 silly gunzTarPerm extractEntry src/style.js
+145 silly gunzTarPerm extractEntry src/state.js
+146 silly gunzTarPerm extractEntry src/vars.js
+147 silly gunzTarPerm extractEntry src/reporters/checkstyle.js
+148 silly gunzTarPerm extractEntry src/reporters/default.js
+149 silly gunzTarPerm extractEntry src/reporters/jslint_xml.js
+150 silly gunzTarPerm extractEntry src/reporters/non_error.js
+151 silly gunzTarPerm extractEntry src/reporters/unix.js
+152 silly gunzTarPerm extractEntry src/platforms/rhino.js
+153 silly lockFile 582a6c33-me-ryan-npm-jshint-2-8-0-package tar:///home/ryan/.npm/jshint/2.8.0/package
+154 silly lockFile 582a6c33-me-ryan-npm-jshint-2-8-0-package tar:///home/ryan/.npm/jshint/2.8.0/package
+155 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+156 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+157 verbose chmod /home/ryan/.npm/jshint/2.8.0/package.tgz 644
+158 verbose chown /home/ryan/.npm/jshint/2.8.0/package.tgz [ 1000, 1000 ]
+159 silly lockFile db7ab9be-pmjs-org-jshint-jshint-2-8-0-tgz https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz
+160 silly lockFile db7ab9be-pmjs-org-jshint-jshint-2-8-0-tgz https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz
+161 silly lockFile 1203a897-jshint-2-8-0 jshint@2.8.0
+162 silly lockFile 1203a897-jshint-2-8-0 jshint@2.8.0
+163 silly lockFile a02a2468-jshint jshint@
+164 silly lockFile a02a2468-jshint jshint@
+165 silly resolved [ { name: 'jshint',
+165 silly resolved     version: '2.8.0',
+165 silly resolved     homepage: 'http://jshint.com/',
+165 silly resolved     description: 'Static analysis tool for JavaScript',
+165 silly resolved     author:
+165 silly resolved      { name: 'Anton Kovalyov',
+165 silly resolved        email: 'anton@kovalyov.net',
+165 silly resolved        url: 'http://anton.kovalyov.net/' },
+165 silly resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+165 silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+165 silly resolved     bin: { jshint: './bin/jshint' },
+165 silly resolved     scripts:
+165 silly resolved      { build: 'node bin/build',
+165 silly resolved        coverage: 'istanbul -- cover ./node_modules/.bin/nodeunit tests/unit',
+165 silly resolved        data: 'node scripts/generate-identifier-data',
+165 silly resolved        pretest: 'jshint src && jscs src',
+165 silly resolved        test: 'nodeunit tests tests/regression tests/unit' },
+165 silly resolved     main: './src/jshint.js',
+165 silly resolved     dependencies:
+165 silly resolved      { cli: '0.6.x',
+165 silly resolved        'console-browserify': '1.1.x',
+165 silly resolved        exit: '0.1.x',
+165 silly resolved        htmlparser2: '3.8.x',
+165 silly resolved        minimatch: '2.0.x',
+165 silly resolved        shelljs: '0.3.x',
+165 silly resolved        'strip-json-comments': '1.0.x',
+165 silly resolved        lodash: '3.7.x' },
+165 silly resolved     devDependencies:
+165 silly resolved      { browserify: '9.x',
+165 silly resolved        coveralls: '2.11.x',
+165 silly resolved        istanbul: '0.3.x',
+165 silly resolved        jscs: '1.11.x',
+165 silly resolved        jshint: '2.6.x',
+165 silly resolved        'mock-stdin': '0.3.x',
+165 silly resolved        nodeunit: '0.9.x',
+165 silly resolved        regenerate: '1.2.x',
+165 silly resolved        sinon: '1.12.x',
+165 silly resolved        'unicode-6.3.0': '0.1.x' },
+165 silly resolved     license: '(MIT AND JSON)',
+165 silly resolved     preferGlobal: true,
+165 silly resolved     files: [ 'bin', 'data', 'dist', 'src' ],
+165 silly resolved     readme: '# JSHint, A Static Code Analysis Tool for JavaScript\n\n\\[ [Use it online](http://jshint.com/) • [About](http://jshint.com/about/) •\n[Docs](http://jshint.com/docs/) • [FAQ](http://jshint.com/docs/faq) •\n[Install](http://jshint.com/install/) • [Hack](http://jshint.com/hack/) •\n[Blog](http://jshint.com/blog/) • [Twitter](https://twitter.com/jshint/) \\]\n\n[![NPM version](https://img.shields.io/npm/v/jshint.svg?style=flat)](https://www.npmjs.com/package/jshint)\n[![Linux Build Status](https://img.shields.io/travis/jshint/jshint/master.svg?style=flat&label=Linux%20build)](https://travis-ci.org/jshint/jshint)\n[![Windows Build status](https://img.shields.io/appveyor/ci/jshint/jshint/master.svg?style=flat&label=Windows%20build)](https://ci.appveyor.com/project/jshint/jshint/branch/master)\n[![Dependency Status](https://img.shields.io/david/jshint/jshint.svg?style=flat)](https://david-dm.org/jshint/jshint)\n[![devDependency Status](https://img.shields.io/david/dev/jshint/jshint.svg?style=flat)](https://david-dm.org/jshint/jshint#info=devDependencies)\n[![Coverage Status](https://img.shields.io/coveralls/jshint/jshint.svg?style=flat)](https://coveralls.io/r/jshint/jshint?branch=master)\n\nJSHint is a community-driven tool to detect errors and potential problems\nin JavaScript code. It is very flexible so you can easily adjust it to your\nparticular coding guidelines and the environment you expect your code to\nexecute in.\n\n## Reporting a bug\n\nTo report a bug simply create a\n[new GitHub Issue](https://github.com/jshint/jshint/issues/new) and describe\nyour problem or suggestion. We welcome all kinds of feedback regarding\nJSHint including but not limited to:\n\n * When JSHint doesn\'t work as expected\n * When JSHint complains about valid JavaScript code that works in all browsers\n * When you simply want a new option or feature\n\nBefore reporting a bug look around to see if there are any open or closed tickets\nthat cover your issue. And remember the wisdom: pull request > bug report > tweet.\n\n## Issue Priority\n\n- *P1:* Something is throwing exceptions; broken JSHint backward compatibility.\n- *P2:* Something is not being parsed correctly.\n- *P3:* Features that the core team will work on once P2s and P1s are done.\n- *P4:* Patches welcome; The request is good, but low priority.\n\n\n## License\n\nJSHint is distributed under the MIT License. One file and one file only\n(src/stable/jshint.js) is distributed under the slightly modified MIT License.\n\n## The JSHint Team\n\nJSHint is maintained by [Rick Waldron](https://github.com/rwaldron/), [Caitlin\nPotter](https://github.com/caitp/), [Mike\nSherov](https://github.com/mikesherov/), and [Mike\nPennisi](https://github.com/jugglinmike/).\n\n## Thank you!\n\nWe really appreciate all kinds of feedback and contributions. Thanks for using and supporting JSHint!\n',
+165 silly resolved     readmeFilename: 'README.md',
+165 silly resolved     _id: 'jshint@2.8.0',
+165 silly resolved     dist: { shasum: 'ec3e3a8e66b61b140d17b5a8c6489c229e4e86ef' },
+165 silly resolved     _from: 'jshint@',
+165 silly resolved     _resolved: 'https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz' } ]
+166 info install jshint@2.8.0 into /usr/local/lib
+167 info installOne jshint@2.8.0
+168 info /usr/local/lib/node_modules/jshint unbuild
+169 verbose tar unpack /home/ryan/.npm/jshint/2.8.0/package.tgz
+170 silly lockFile 59dfcd45-sr-local-lib-node-modules-jshint tar:///usr/local/lib/node_modules/jshint
+171 verbose lock tar:///usr/local/lib/node_modules/jshint /home/ryan/.npm/59dfcd45-sr-local-lib-node-modules-jshint.lock
+172 silly lockFile a38e6493-yan-npm-jshint-2-8-0-package-tgz tar:///home/ryan/.npm/jshint/2.8.0/package.tgz
+173 verbose lock tar:///home/ryan/.npm/jshint/2.8.0/package.tgz /home/ryan/.npm/a38e6493-yan-npm-jshint-2-8-0-package-tgz.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+175 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+175 error   errno: 3,
+175 error   code: 'EACCES',
+175 error   path: '/usr/local/lib/node_modules',
+175 error   fstream_type: 'Directory',
+175 error   fstream_path: '/usr/local/lib/node_modules/jshint',
+175 error   fstream_class: 'DirWriter',
+175 error   fstream_stack:
+175 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+175 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+175 error      'Object.oncomplete (fs.js:107:15)' ] }
+176 error Please try running this command again as root/Administrator.
+177 error System Linux 3.19.0-26-generic
+178 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "jshint"
+179 error cwd /home/ryan/Desktop/events
+180 error node -v v0.10.25
+181 error npm -v 1.3.10
+182 error path /usr/local/lib/node_modules
+183 error fstream_path /usr/local/lib/node_modules/jshint
+184 error fstream_type Directory
+185 error fstream_class DirWriter
+186 error code EACCES
+187 error errno 3
+188 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+189 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+189 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+189 error fstream_stack Object.oncomplete (fs.js:107:15)
+190 verbose exit [ 3, true ]
